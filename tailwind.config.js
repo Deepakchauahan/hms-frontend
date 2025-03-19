@@ -1,0 +1,26 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    colors: {
+      transparent: "transparent",
+      white: "#ffffff",
+      black: "#000",
+      blue: "#1d428a",
+      orange: "#e56043",
+      red: "red",
+    },
+    backgroundImage: {
+      "footer-bg-1": "url('/common/bg_footer_1.png')",
+      "footer-bg-2": "url('/common/bg_footer_2.png')",
+    },
+    container: {
+      center: true,
+    },
+  },
+  plugins: [],
+};
