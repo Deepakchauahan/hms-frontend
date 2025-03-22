@@ -16,7 +16,7 @@ export default function Relax() {
                         </h2>
                         <ul className='list-none flex gap-10 flex-col'>
                             <li className='flex gap-4'>
-                                <CiMedal size={65} className='text-black p-3 border rounded-full' />
+                                <CiMedal size={65} className='text-black p-3 border rounded-full w-[65px] h-[65px] min-w-[65px] min-h-[65px] w-[65px] h-[65px] min-w-[65px] min-h-[65px]' />
                                 <div>
                                     <p className="font-bold text-lg mb-2 ">
                                         Dental hygiene never forget!
@@ -27,7 +27,7 @@ export default function Relax() {
                                 </div>
                             </li>
                             <li className='flex gap-4'>
-                                <LiaUserPlusSolid size={65} className='text-black p-3 border rounded-full' />
+                                <LiaUserPlusSolid size={65} className='text-black p-3 border rounded-full w-[65px] h-[65px] min-w-[65px] min-h-[65px]' />
                                 <div>
                                     <p className="font-bold text-lg mb-2 ">
                                         Don’t rush when you brush!
@@ -38,7 +38,7 @@ export default function Relax() {
                                 </div>
                             </li>
                             <li className='flex gap-4'>
-                                <TbAffiliate size={65} className='text-black p-3 border rounded-full' />
+                                <TbAffiliate size={65} className='text-black p-3 border rounded-full w-[65px] h-[65px] min-w-[65px] min-h-[65px]' />
                                 <div>
                                     <p className="font-bold text-lg mb-2 ">
                                         Visit your dentist once in 6 months

@@ -23,7 +23,7 @@ export default function HowWork() {
                     <Tabs className="flex gap-10 ">
                         <TabList className="flex flex-col w-1/2 gap-4">
                             <Tab className={"bg-sectionBg p-3 rounded-lg shadow-md"}> <div className='flex gap-4 items-start'>
-                                <span className='text-black p-3 border border-iconBorder rounded-full mt-1'><WorkIcon1 /></span>
+                                <span className='text-black p-3 border border-iconBorder rounded-full mt-1 w-[61px] h-[61px] min-w-[61px] min-h-[61px] flex justify-center items-center'><WorkIcon1 /></span>
                                 <div>
                                     <p className="font-bold text-lg mb-2 ">
                                         Comfortable and Precise Treatment
@@ -33,7 +33,7 @@ export default function HowWork() {
                                 </div>
                             </div></Tab>
                             <Tab className={"bg-sectionBg p-3 rounded-lg shadow-md"}> <div className='flex gap-4 items-start'>
-                                <span className='text-black p-3 border border-iconBorder rounded-full mt-1'><WorkIcon2 /></span>
+                                <span className='text-black p-3 border border-iconBorder rounded-full mt-1 w-[61px] h-[61px] min-w-[61px] min-h-[61px] flex justify-center items-center'><WorkIcon2 /></span>
                                 <div>
                                     <p className="font-bold text-lg mb-2 ">
                                         Post-Treatment Care and Follow-Up
@@ -43,7 +43,7 @@ export default function HowWork() {
                                     </p>                                </div>
                             </div></Tab>
                             <Tab className={"bg-sectionBg p-3 rounded-lg shadow-md"}> <div className='flex gap-4 items-start'>
-                                <span className='text-black p-3 border border-iconBorder rounded-full mt-1'><WorkIcon3 /></span>
+                                <span className='text-black p-3 border border-iconBorder rounded-full mt-1 w-[61px] h-[61px] min-w-[61px] min-h-[61px] flex justify-center items-center'><WorkIcon3 /></span>
                                 <div>
                                     <p className="font-bold text-lg mb-2 ">
                                         Personalized Treatment Plan
@@ -54,7 +54,7 @@ export default function HowWork() {
                                 </div>
                             </div></Tab>
                             <Tab className={"bg-sectionBg p-3 rounded-lg shadow-md"}> <div className='flex gap-4 items-start'>
-                                <span className='text-black p-3 border border-iconBorder rounded-full mt-1'><WorkIcon4 /></span>
+                                <span className='text-black p-3 border border-iconBorder rounded-full mt-1 w-[61px] h-[61px] min-w-[61px] min-h-[61px] flex justify-center items-center'><WorkIcon4 /></span>
                                 <div>
                                     <p className="font-bold text-lg mb-2 ">
                                         Your First Consultation
