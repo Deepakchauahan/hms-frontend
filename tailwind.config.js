@@ -13,6 +13,8 @@ module.exports = {
       blue: "#1d428a",
       orange: "#e56043",
       red: "red",
+      sectionBg: "#f6f9f9",
+      gray: "#959595"
     },
     backgroundImage: {
       "footer-bg-1": "url('/common/bg_footer_1.png')",

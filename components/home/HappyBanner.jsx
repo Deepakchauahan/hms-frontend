@@ -1,6 +1,4 @@
-import React from "react";
 import { FaUserMd } from "react-icons/fa";
-import { FaWheelchair } from "react-icons/fa";
 import {
   ExaminationIcon,
   HappyTeeth,
@@ -11,10 +9,8 @@ import {
 export default function HappyBanner() {
   return (
     <div className="bellow-banner relative z-10">
-      {/* <div className="container"> */}
-      <ul className="list-none bg-orange grid grid-cols-5">
+      <ul className="list-none bg-gray grid grid-cols-5">
         <li className="rounede-lg flex flex-col items-center border-e border-white py-10 px-3">
-          {/* <FaWheelchair size={60} color="white" className="mb-4" /> */}
           <div className="w-[60px] h-[60px] scale-125">
             <ExaminationIcon />
           </div>
@@ -22,7 +18,7 @@ export default function HappyBanner() {
           <h5 className="font-bold text-[20px] text-white mt-4">
             2 Millions +
           </h5>
-          <p className="text-center text-[14px] text-white font-semibold">
+          <p className="text-center text-[14px] text-white font-normal">
             Happy Patients
           </p>
         </li>
@@ -31,7 +27,7 @@ export default function HappyBanner() {
             <HappyTeeth />
           </div>
           <h5 className="font-bold text-[20px] text-white mt-4">35,000 +</h5>
-          <p className="text-center text-[14px] text-white font-semibold">
+          <p className="text-center text-[14px] text-white font-normal">
             Successful Ortho cases
           </p>
         </li>
@@ -40,7 +36,7 @@ export default function HappyBanner() {
             <ImplantTeeth />
           </div>
           <h5 className="font-bold text-[20px] text-white mt-4">50,000 +</h5>
-          <p className="text-center text-[14px] text-white font-semibold">
+          <p className="text-center text-[14px] text-white font-normal">
             Implants Placed
           </p>
         </li>
@@ -50,7 +46,7 @@ export default function HappyBanner() {
           <h5 className="font-bold text-[20px] text-white mt-4">
             Certified Dentist
           </h5>
-          <p className="text-center text-[14px] text-white font-semibold">
+          <p className="text-center text-[14px] text-white font-normal">
             Your Smile in Expert Hands
           </p>
         </li>
@@ -61,12 +57,11 @@ export default function HappyBanner() {
           <h5 className="font-bold text-[20px] text-white mt-4">
             New Technology
           </h5>
-          <p className="text-center text-[14px] text-white font-semibold">
+          <p className="text-center text-[14px] text-white font-normal">
             Beyond Tomorrow Unveiling Frontiers
           </p>
         </li>
       </ul>
-      {/* </div> */}
     </div>
   );
 }

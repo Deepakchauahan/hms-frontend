@@ -8,17 +8,34 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 300;
   font-family: "Roboto", sans-serif;
   color: #000;
   padding: 0;
   margin: 0;
+  background-color: #fff;
 }
+
+.font-normal {
+  font-weight: 300;
+}
+
+.font-bold,
+b,
+strong {
+  font-weight: 600;
+}
+
+.font-semibold {
+  font-weight: 400;
+}
+
 .container {
-  max-width: 1980px;
+  max-width: 1440px;
   padding: 0 30px;
 }
 
@@ -33,6 +50,7 @@ body {
   content: "";
   clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
 }
+
 .home-banner::before {
   position: absolute;
   width: calc(30% + 0.3px);
@@ -44,10 +62,11 @@ body {
   content: "";
 }
 
-.text-under-style{
+.text-under-style {
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
+
 .text-under-style::after {
   position: absolute;
   height: 3px;
@@ -57,4 +76,104 @@ body {
   left: 0%;
   right: 50%;
   content: "";
+}
+
+.home-take-care .list-none li {
+  position: relative;
+}
+
+.home-take-care .list-none li:after {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background-color: #1d428a;
+  top: 0;
+  bottom: 0;
+  left: -16px;
+  content: '';
+  border-radius: 100%;
+  margin: auto;
+}
+
+.home-take-care::before {
+  background: url(../public/images/tooth-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  opacity: .8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+}
+
+.home-appointment:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  content: '';
+  background-color: #f6f9f9;
+}
+
+.home-appointment:after {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  content: '';
+  background-color: #1d428a;
+}
+
+.appointment-form input,
+.appointment-form select {
+  padding: 10px 10px;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid #e56043;
+  background-color: transparent;
+  color: #fff;
+}
+
+.appointment-form input::placeholder {
+  color: #fff;
+  opacity: 1;
+  /* Firefox */
+}
+
+.appointment-form input::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: #fff;
+}
+
+.appointment-form input:focus-visible,
+.appointment-form select:focus-visible {
+  border: 0;
+  outline: none;
+}
+
+.appointment-form input:hover,
+.appointment-form input:focus,
+.appointment-form select:hover,
+.appointment-form select:focus {
+  background: rgba(255, 255, 255, 0.4)
+}
+
+.home-faq .accordion {
+  border: none;
+}
+
+.home-faq .accordion__button {
+  background-color: #0000;
+}
+
+.home-faq .accordion__button:hover {
+  background-color: #0000;
+}
+
+.home-faq .accordion__heading {
+  font-weight: 600;
 }
