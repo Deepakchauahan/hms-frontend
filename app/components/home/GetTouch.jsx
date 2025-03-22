@@ -7,7 +7,7 @@ export default function GetTouch() {
                 <div className='flex justify-between items-center'>
                     <div >
                         <h2 className="text-[36px] text-white font-medium mb-0">
-                        Get in touch with us today <span className="text-orange border-b"><a href='tel:(02) 9955 4239'>(02) 9955 4239</a></span>
+                        Get in touch with us today <span className="text-orange border-b"><a href='tel:+91 95604 85414'>+91 95604 85414</a></span>
                         </h2>
                     </div>
                     <button

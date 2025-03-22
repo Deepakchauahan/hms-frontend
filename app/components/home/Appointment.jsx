@@ -2,7 +2,7 @@
 
 export default function Appointment() {
     return (
-        <section className='home-appointment py-24 relative'>
+        <section className='home-appointment py-24 relative' id="contact-us">
             <div className="container">
                 <div className="flex justify-start gap-4 relative z-10">
                     <div className='w-1/2 flex justify-end pe-10'>
@@ -13,32 +13,32 @@ export default function Appointment() {
                             <ul className='list-none flex gap-3 flex-col'>
                                 <li className='flex gap-4 justify-between border-b pb-1 border-gray'>
                                     <strong>Monday :</strong>
-                                    <span className='text-gray'>10:00 am – 4:00 pm</span>
+                                    <span className='text-gray'>10:00 am - 4:00 pm</span>
                                 </li>
                                 <li className='flex gap-4 justify-between border-b pb-1 border-gray'>
                                     <strong>Tuesday :</strong>
-                                    <span className='text-gray'>09:00 am – 3:00 pm</span>
+                                    <span className='text-gray'>09:00 am - 3:00 pm</span>
                                 </li>
                                 <li className='flex gap-4 justify-between border-b pb-1 border-gray'>
                                     <strong>Wednesday :</strong>
-                                    <span className='text-gray'>11:00 am – 5:00 pm</span>
+                                    <span className='text-gray'>11:00 am - 5:00 pm</span>
                                 </li>
                                 <li className='flex gap-4 justify-between border-b pb-1 border-gray'>
                                     <strong>Thursday :</strong>
-                                    <span className='text-gray'>09:00 am – 3:00 pm</span>
+                                    <span className='text-gray'>09:00 am - 3:00 pm</span>
                                 </li>
 
                                 <li className='flex gap-4 justify-between border-b pb-1 border-gray'>
                                     <strong>Friday  :</strong>
-                                    <span className='text-gray'>12:00 am – 6:00 pm</span>
+                                    <span className='text-gray'>12:00 am - 6:00 pm</span>
                                 </li>
                                 <li className='flex gap-4 justify-between border-b pb-1 border-gray'>
                                     <strong>Saturday  :</strong>
-                                    <span className='text-gray'>10:00 am – 2:00 pm</span>
+                                    <span className='text-gray'>10:00 am - 2:00 pm</span>
                                 </li>
                                 <li className='flex gap-4 justify-between'>
                                     <strong>Sunday  :</strong>
-                                    <span className='text-gray'>10:00 am – 2:00 pm</span>
+                                    <span className='text-gray'>10:00 am - 2:00 pm</span>
                                 </li>
 
                             </ul>

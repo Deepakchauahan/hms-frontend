@@ -1,7 +1,8 @@
+import Link from "next/link";
 
 export default function Specialities() {
     return (
-        <section className='home-specialities relative py-24'>
+        <section className='home-specialities relative py-24' id="specialities">
             <div className="container">
                 <div className='flex gap-20'>
                     <div className='flex w-1/3 flex-col '>
@@ -9,12 +10,12 @@ export default function Specialities() {
                             <span className="text-orange"> Dental </span>Specialities
                         </h2>
                         <p className='text-gray'>Lorem ipsum dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Phasellus viverra nulla ut metus varius laoreet. To make the patagraph largerQuisque rutrum aenean this is necessary.</p>
-                        <button
-                            type="button"
+                        <Link
+                           href={"tel:+91 95604 85414"}
                             className="border border-2 border-blue py-3 px-10 mt-10 rounded-lg max-w-max font-bold text-blue"
                         >
                             Talk To Us
-                        </button>   </div>
+                        </Link>   </div>
                     <div className='flex w-1/3 flex-col gap-4'>
                         <div className='mb-2'>
                             <p className="font-bold text-lg mb-2 ">

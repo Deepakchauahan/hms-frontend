@@ -9,7 +9,7 @@ import Outreach6 from "../../../public/images/Outreach6.jpg";
 
 export default function Outreach() {
     return (
-        <section className='home-outreach py-24 '>
+        <section className='home-outreach py-24 ' id="services">
             <div className="container">
                 <div className="flex align-items gap-4">
                     <div className='flex flex-col justify-center'>

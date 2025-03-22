@@ -17,11 +17,21 @@ export default function Header({ transparent = false }) {
             </Link>
           </div>
           <nav className="nav list-none flex gap-10 items-center">
-            {Array.from(Array(5)).map((i) => (
-              <li key={i}>
-                <Link href="#!" >Home</Link>
-              </li>
-            ))}
+            <li >
+              <Link href="/#about-us" >About Us</Link>
+            </li>
+            <li >
+              <Link href="/#how-work" >How it Work</Link>
+            </li>
+            <li >
+              <Link href="/#services" >Services</Link>
+            </li>
+            <li >
+              <Link href="/#specialities" >Specialities</Link>
+            </li>
+            <li >
+              <Link href="/#contact-us" >Contact Us</Link>
+            </li>
           </nav>
           <ButtonCallUs />
         </div>

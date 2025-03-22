@@ -9,7 +9,7 @@ export default function TakeCare() {
                             Take care of your <span className="text-orange">teeth & gums</span>
                         </h2>
                         <p className='text-gray'>Researchers have found that people with gum disease are almost twice as likely to suffer from coronary heart disease…</p>
-                        <ul claßssName='list-none flex gap-2 flex-col ps-4 mt-6 text-gray'>
+                        <ul className='list-none flex gap-2 flex-col ps-4 mt-6 text-gray'>
                             <li>Aenean posuere sem imperdiet. </li>
                             <li>Sed semper lorem sit amet ultrices mollis. </li>
                             <li>Vivamus vehicula diam ut velit lacinia.  </li>

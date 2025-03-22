@@ -18,6 +18,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: #fff;
+  scroll-behavior: smooth;
 }
 
 .font-normal {
@@ -176,4 +177,17 @@ strong {
 
 .home-faq .accordion__heading {
   font-weight: 600;
+}
+
+.home-how-work li.react-tabs__tab--selected {
+  background-color: #1d428a;
+}
+
+.home-how-work li.react-tabs__tab--selected span {
+  border-color: #fff;
+  background-color: #fff;
+}
+
+.home-how-work li.react-tabs__tab--selected p {
+  color: #fff;
 }
