@@ -7,7 +7,7 @@ import {
   PiXLogoBold,
   PiYoutubeLogoBold,
 } from "react-icons/pi";
-import Logo from "../../public/common/logo.svg";
+import Logo from "../../../public/common/logo.svg";
 
 export default function Footer() {
   return (
@@ -15,7 +15,7 @@ export default function Footer() {
       <div className="container">
         <div className="grid  grid-cols-6 gap-20 pb-14 ">
           <div className="col-span-2">
-            <Image src={Logo} />
+            <Image src={Logo} alt="logo"/>
             <p className="my-4  text-[14px]">
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took a galley of type and

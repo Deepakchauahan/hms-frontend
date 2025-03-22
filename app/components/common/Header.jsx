@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../../public/common/logo.svg";
+import Logo from "../../../public/common/logo.svg";
 import { ButtonCallUs } from "./Button";
 
 export default function Header({ transparent = false }) {
@@ -13,7 +13,7 @@ export default function Header({ transparent = false }) {
         <div className="flex items-center justify-between">
           <div className="logo">
             <Link href="/">
-              <Image src={Logo} className="max-w-[90%]" priority />
+              <Image src={Logo} alt="logo" className="max-w-[90%]" priority />
             </Link>
           </div>
           <nav className="nav list-none flex gap-10 items-center">

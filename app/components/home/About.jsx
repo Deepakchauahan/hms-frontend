@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import AboutImg from "../../public/images/easy-ways2.jpg";
+import AboutImg from "../../../public/images/easy-ways2.jpg";
 
 
 export default function About() {
@@ -28,7 +28,7 @@ export default function About() {
                         </button>
                     </div>
                     <div className='flex w-1/2 justify-end align-center'>
-                        <Image src={AboutImg} className="max-w-[80%] rounded-ss-2xl rounded-ee-2xl" />
+                        <Image src={AboutImg} className="max-w-[80%] rounded-ss-2xl rounded-ee-2xl" alt='about' />
                     </div>
                 </div>
 
